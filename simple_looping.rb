@@ -39,6 +39,7 @@ def for_iterator(number_of_times)
   counter = 0
   for counter in number_of_times
     puts phrase
+    counter += 1
   end
 end
 
