@@ -21,7 +21,7 @@ def while_iterator(number_of_times)
   counter = 0
   while number_of_times >= 1
     puts phrase
-    break if counter = 0
+    break if counter < 1
     counter += 1
   end
 end
