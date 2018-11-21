@@ -23,7 +23,6 @@ def while_iterator(number_of_times)
     puts phrase
     break if number_of_times = 0
     counter += 1
-  
   end
 end
 
