@@ -18,10 +18,10 @@ end
 
 def while_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  counter = 0
-  while counter = number_of_times >= 1
+  # counter = 0
+  while number_of_times >= 1
     puts phrase
-    break if counter < 1
+    break if number_of_times < 1
   end
 end
 
