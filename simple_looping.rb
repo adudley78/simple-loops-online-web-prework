@@ -21,7 +21,7 @@ def while_iterator(number_of_times)
   counter = number_of_times
   while counter >= 1
     puts phrase
-    counter += 1
+    counter -= 1
   end
 end
 
